@@ -1,0 +1,64 @@
+@charset "UTF-08";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    border-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header > h2 {
+    color: white;
+    text-align: center;
+}
+
+header > h2 > a {
+    color: white;
+    text-decoration: none;
+}
+
+.versos {
+    color: white;
+    height: 300px;
+    line-height: 2em;
+    padding: 10%;
+}
+
+p#primeiro {
+    background-color: white;
+    color: black;
+}
+
+p#segundo {
+    background-image: url('../imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p#terceiro {
+    background-color: white;
+    color: black;
+    height: 500px;
+}
+
+p#quarto {
+    background-image: url('../imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p#quinto {
+    background-color: white;
+    color: black;
+    height: 500px;
+}
