@@ -7,7 +7,6 @@
 
 header {
     background-color: black;
-    border-color: black;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -15,6 +14,7 @@ header {
 header > h1 {
     color: white;
     text-align: center;
+    font-variant: small-caps;
     padding-bottom: 10px;
 }
 
@@ -23,10 +23,15 @@ header > h2 {
     text-align: center;
 }
 
-header > h2 > a {
+a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
+
+a:hover {
+    text-decoration: underline;
+} 
 
 .versos {
     color: white;
@@ -40,10 +45,15 @@ p#primeiro {
     color: black;
 }
 
-p#segundo {
+section.girassol{
     background-image: url('../imagens/background001.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+p#segundo {
+    background-color: rgba(92, 91, 91, 0.39);
+    width: 200px;
 }
 p#terceiro {
     background-color: white;
@@ -51,14 +61,26 @@ p#terceiro {
     height: 500px;
 }
 
-p#quarto {
+section.livro {
     background-image: url('../imagens/background002.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+p#quarto {
+    background-color: rgba(92, 91, 91, 0.39);
+    width: 200px; 
 }
 
 p#quinto {
     background-color: white;
     color: black;
     height: 500px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
